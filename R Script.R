@@ -13,7 +13,7 @@ df1 %>%
   geom_textbox(
     data = tribble(
       ~x, ~y, ~label,
-      as.Date("2016-07-01"), 1500, "Precio máximo desde 1990 (originado por guerra de Ucrania- Rusia, aumento de aceite de girasol; efecto sustitucion.",
+      as.Date("2016-07-01"), 1500, "Precio máximo desde 1990 (originado por guerra de Ucrania- Rusia, aumento del precio del aceite de girasol; efecto sustitución.)",
       
     ),
     aes(x=x,y=y,label=label),
