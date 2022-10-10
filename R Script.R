@@ -49,6 +49,7 @@ df1 %>%
     axis.title = element_blank(),
     axis.text = element_blank(),
     axis.text.x = element_text(face='bold', size= 10, family='Georgia'),
+    axis.text.y = element_text(face='bold', size= 10, family='Georgia'),
     panel.grid.major.y = element_line(size=0.5, color = '#D7D7D7'),
   )+
   theme(panel.border = element_rect(color = "#009E73",
