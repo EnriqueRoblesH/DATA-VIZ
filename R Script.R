@@ -1,4 +1,4 @@
-df <- read_excel("C:/Users/elfo/Downloads/PPOILUSDM.xls")
+df <- read_excel("Downloads/PPOILUSDM.xls")
 date<-df$observation_date
 df1 <- df %>%
   mutate(Date1 = as.Date(date, format = "%d.%m.%Y")) %>%
